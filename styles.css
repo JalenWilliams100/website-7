@@ -1,0 +1,71 @@
+/* CSS Document */
+ body {
+	background-color: skyblue;
+}
+button {
+	font-size: 30px;
+	background-color: lightcyan;
+}
+h1,h2 {
+	color:darkslateblue;
+}
+#signup{
+	background-color: darkslateblue;
+	color: lightcyan;
+}
+span {
+	color:navy;
+}
+.tag{
+	background-color: indianred;
+	color: lightcyan;
+	font-size:16px;
+}
+.post a {
+	color: cadetblue;
+	font-weight: 700;
+	text-decoration:none;
+}
+footer a {
+	color: red;
+}
+h2 + button {
+	font-size: 20px;
+}
+footer > a {
+	color: tomato;
+}
+input[type="password"] {
+	color:greenyellow;
+}
+a[href*="google"]{
+	color:darkblue;
+}
+.post a:hover{
+	text-decoration:underline;
+}
+.post button:active{
+	background-color:darkseagreen;
+}
+.post:nth-of-type(2n){
+	background-color:deepskyblue;
+}
+h2::first-letter{
+	font-size:50px;
+}
+p::first-line {
+	color:blue;
+}
+p::selection{
+	background-color:yellow;
+}
+.post button:active{
+	background-color: red;
+	color:aliceblue;
+}
+button:hover{
+	background-color:olive;
+}
+button {
+	background-color:magenta !important;
+}
